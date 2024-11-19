@@ -1,7 +1,7 @@
 // Code your solutions in this file
 const names = ["Aly", "Aidan", "Rabbi"];
 
-function writeCardsFor(names) {
+function writeCards(names) {
     for (let i = 0; i < names.length; i++ ) {
         console.log(`Thank you, ${names[i]}, for the wonderful birthday gift!`);
         
@@ -9,7 +9,7 @@ function writeCardsFor(names) {
    return names;
 }
 
-writeCardsFor(names);
+writeCards(names);
 ///////////////////////////////////////
 function writeCardsWhile(names) {
     let i = 0; 
